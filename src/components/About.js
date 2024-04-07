@@ -3,7 +3,10 @@ import React from "react";
 export default function About() {
   return (
     <section class="articles">
-      
+      <div class="Hello">
+      <h1 > Hello and Welcome!👋🏻</h1>
+      <p>This is a learning application for the LOT Business Lounge in Warsaw. You can see more about it below. </p>
+      </div>
   <article>
     <div class="article-wrapper">
       <figure>
@@ -54,7 +57,7 @@ export default function About() {
       </div>
     </div>
   </article>
-  <h1 class="Hello"> Hello! This is a learning application for the LOT Business Lounge in Warsaw. You can see more about it at the top. </h1>
+  
 </section>
 
   );

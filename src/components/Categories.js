@@ -9,9 +9,9 @@ export default function Categories () {
   return (
     <main>
       <h1>Categories</h1>
-      <ul className='categ'>
+      <ul  className='categ'>
         { Object.keys(categories).map(slug => (
-          <li key={slug}>
+          <li  key={slug}>
             <Link to={`${slug}`}>{slug}</Link>
           </li>
         ))}

@@ -4,8 +4,8 @@ import { Outlet } from 'react-router-dom';
 
 export default function Alcohols() {
     return (
-      <div style={{ marginLeft: 65 }}>
-        <h1>Alcohol</h1>
+      <div >
+        <h1 className='alco'>Alcohol</h1>
         <Outlet/>
       </div>
     );

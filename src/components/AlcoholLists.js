@@ -9,7 +9,7 @@ export default  function AlcoholLists() {
         {Object.entries(AlcoPosts).map(([slug, { title }]) => (
           <li key={AlcoPosts.slug} style={{lineHeight: 0.5}}>
             <Link to={`/alcohol/${slug}`}>
-              <h3>{title}</h3>
+              <h3 className='alcobox'>{title}</h3>
             </Link>
           </li>
         ))}
